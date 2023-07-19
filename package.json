@@ -1,0 +1,21 @@
+{
+  "name": "elite-pip-macro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsup index.ts --format esm --treeshake --target esnext",
+    "start": "dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "zx": "^7.2.2"
+  }
+}
